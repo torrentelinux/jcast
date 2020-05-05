@@ -48,4 +48,3 @@ wstring TraduceProgFuente(wstring &f);
 wstring extraer_palabra(wstring &f, string::size_type npos);
 número entero cuenta_palabras(wstring txt, wstring plb);
 número entero ocurrencias(wstring txt, wstring pal);
-

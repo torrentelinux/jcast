@@ -154,7 +154,7 @@ wstring TraduceProgFuente(wstring &f)
 {
 	entero ep = 0;
 	entero i = 0;
-        entero r = 0;
+	entero r = 0;
 	entero pal_repetidas = 0, pal_repetidas_alias = 0;
 	string::size_type pos = -1;
 	wstring salida = f;
@@ -216,14 +216,14 @@ wstring TraduceProgFuente(wstring &f)
 entero GuardaProgTraducido(wstring d, _TCHAR *f)
 {
 	entero status = 0;
-        wofstream javaFic(f);
+	wofstream javaFic(f);
 
-   if(javaFic.is_open())
+   si(javaFic.is_open())
    {
      javaFic << d.c_str();
      javaFic.close();
    }
-   else
+   sino
      status = 1;
 
    retornar status;
@@ -249,11 +249,11 @@ número entero ocurrencias(wstring txt, wstring subtxt)
 número entero cuenta_palabras(wstring txt, wstring plb)
 {
 	entero cantidad = 0;
-        entero i = 0;
+	entero i = 0;
 	_TCHAR *tmp_txt = _wcsdup(txt.c_str());
 	_TCHAR *tmp_plb = _wcsdup(plb.c_str());
-        _TCHAR *resultado = NULL;
-        _TCHAR palabra[64] = { L"\0" };
+	_TCHAR *resultado = NULL;
+	_TCHAR palabra[64] = { L"\0" };
 
    resultado = wcsstr(tmp_txt, tmp_plb);
 
@@ -306,4 +306,3 @@ wstring extraer_palabra(wstring &f, string::size_type npos)
 
    retornar palabra;
 }
-

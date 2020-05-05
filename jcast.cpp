@@ -51,8 +51,8 @@ entero _tmain(entero argc, _TCHAR* argv[])
 	wstring fuente;
 	wstring destino;
 	Localidad loc;
-        _TCHAR fnombre[272] = { L"\0" };
-        _TCHAR *extension;
+	_TCHAR fnombre[272] = { L"\0" };
+	_TCHAR *extension;
 
    LeerLocalidad(loc);
    AjustaLocalidad(L"es_AR", 1252);
@@ -103,4 +103,3 @@ entero _tmain(entero argc, _TCHAR* argv[])
    AjustaLocalidad(loc.wnombre, loc.cp);
    retornar status;
 }
-

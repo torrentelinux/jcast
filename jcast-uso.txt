@@ -1,0 +1,19 @@
+< Notas sobre jcast.exe >
+
+Descripción
+Traducir un programa fuente Java en idioma Castellano a fuente Java en idioma Inglés.
+Reconociendo las palabras reservadas oficiales del lenguaje de programación Java.
+
+Referencias
+En Wikipedia: listado de palabras reservadas de Java
+              https://en.wikipedia.org/wiki/List_of_Java_keywords
+En Especificación del lenguaje Java SE 14: capítulo 3, la estructura léxica, las palabras reservadas
+              https://docs.oracle.com/javase/specs/jls/se14/html/jls-3.html#jls-3.9
+
+Uso:
+        jcast programa_fuente.jcast
+
+Traduce el programa fuente en Java castellano a programa fuente en Java inglés .java
+Fichero obtenido: programa_fuente.java
+
+__Octulio Biletán__Mayo de 2.020__

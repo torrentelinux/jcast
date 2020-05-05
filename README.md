@@ -22,7 +22,7 @@ Fichero obtenido: programa_fuente.java<br>
 Fichero resultante: hola.java<br>
 <br>
 <b>Compilación:</b><br>
-Se necesita del compilador Embarcadero RAD Studio 10.2 o versión superior.<br>
+Se necesita del compilador Embarcadero RAD Studio 2010, 10.2 Tokyo o versión superior.<br>
 El programa fuente ha sido desarrollado para Windows, 32 bits, modo consola, y vinculada con la biblioteca de clases VCL.<br>
 <br>
 __Octulio Biletán__Mayo de 2.020__<br>

@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A60F52E9-5A8C-4F32-94A4-D770E7B78AF6}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="jcast.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="jcast">
+        <MSBuild Projects="jcast.cbproj"/>
+    </Target>
+    <Target Name="jcast:Clean">
+        <MSBuild Projects="jcast.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="jcast:Make">
+        <MSBuild Projects="jcast.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="jcast"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="jcast:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="jcast:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

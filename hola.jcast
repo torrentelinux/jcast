@@ -1,0 +1,7 @@
+pública clase hola
+{
+   pública estática sin_devolución main(String[] args)
+   {
+     System.out.println("¡¡¡ Hola a todos !!!");
+   }
+}

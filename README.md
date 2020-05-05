@@ -2,7 +2,7 @@
 << Notas sobre jcast.exe >><br>
 <br>
 <b>Descripción</b><br>
-Traducir un programa fuente Java en idioma Castellano a fuente Java en idioma Inglés.<br>
+Traducir un programa fuente Java en idioma Castellano/Español a fuente Java en idioma Inglés.<br>
 Reconociendo las palabras reservadas oficiales del lenguaje de programación Java.<br>
 <br>
 <b>Referencias</b><br>

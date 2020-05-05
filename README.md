@@ -16,5 +16,9 @@ En Especificación del lenguaje Java SE 14: capítulo 3, la estructura léxica, 
 <br>
 Traduce el programa fuente en Java castellano a programa fuente en Java inglés .java<br>
 Fichero obtenido: programa_fuente.java<br>
+<b>Ejemplo:</b><br>
+        jcast hola.jcast<br>
+<br>
+Fichero resultante: hola.java<br>
 <br>
 __Octulio Biletán__Mayo de 2.020__<br>
